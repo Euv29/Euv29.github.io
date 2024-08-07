@@ -1,0 +1,106 @@
+.btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: var(--vsmall-sz);
+}
+
+.btn:hover{
+    background-color: #00359e;
+    transition: all .1s ease-in-out;
+}
+
+/* Title */
+.title{
+    gap: 1rem;
+    padding:3rem 0;
+}
+
+.title h1{
+    font-size: var(--mid-sz);
+    font-weight: 700;
+}
+
+.title .title-icon{
+    padding: 0 1rem;
+    border-right: 5px solid var(--primary-color);
+    border-style: inset transparent;
+}
+
+.subtitle{
+    gap: 0.2rem;
+    padding:2rem 5rem;
+}
+
+.subtitle h1{
+    font-size: var(--small-sz);
+    font-weight: 700;
+}
+
+.skill-mid-title{
+    margin-left: 2.5rem;
+    margin-top: -0.5rem;
+}
+
+/* Cards */
+
+.work-card{
+    overflow: hidden;
+    background-color: var(--card-bg);
+    backdrop-filter: blur(15px);
+    border: solid 1px var(--white-color);
+    border-radius: 1rem;
+    min-width: 30rem;
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.card-empty{
+    border: dashed 1px var(--white-color);
+    opacity: 40%;
+}
+
+.work-img img{
+    width: 100%;
+    border: solid 1px var(--white-color);
+    border-radius: 1rem;
+}
+
+.card-description{
+    height: 100%;
+}
+
+.work-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.work-description{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.link-card{
+    gap: 1rem;
+}
+
+.link-card .mid-text{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.work-card:hover{
+    background-color: #ffffff40;
+    transition: all 200ms ease;
+}
+
+.work-card:hover>.link-card .mid-text{
+    color: var(--primary-color);
+    transition: all 200ms ease;
+}

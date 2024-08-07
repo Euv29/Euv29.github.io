@@ -1,0 +1,201 @@
+
+/* 4K */
+@media screen and (min-width: 2560px) {
+    .hide-desktop {
+        display: none;
+        overflow: hidden;
+    }
+
+    :root {
+        /* COLOURS */
+        --primary-color: #0057FF;
+        --black-color: #000000;
+        --dark-color: #121212;
+        --white-color: #FFFFFF;
+        --light-color: #ececec2f;
+        --gray-color: #929292;
+        --card-bg: #ffffff30;
+    
+        /* Size */
+        --big-sz: 4rem;
+        --mid-sz: 3rem;
+        --small-sz: 2rem;
+        --vsmall-sz: 1.8rem;
+    
+        /* Fonts */
+        --normal-font: 500;
+    
+        /* Paddings */
+        --button-p: 0.7rem 1rem;
+    
+        /* Borders */
+        --button-radius: 1rem;
+    }
+
+    /* Fonts */
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    html {
+        font-size: 120%;
+        background-color: var(--black-color);
+    }
+
+    .hero-content .hero-img img {
+        width: 40rem;
+    }
+}
+
+#page {
+    max-width: 1440px;
+}
+
+
+/* Desktop */
+@media screen and (min-width: 601px) {
+    .hide-desktop {
+        display: none;
+        overflow: hidden;
+    }
+
+    .logo-container {
+        width: 10%;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+        overflow: hidden;
+    }
+
+    .hide-desktop {
+        display: flex;
+        overflow: hidden;
+    }
+
+    .content {
+        padding: 3rem;
+        width: 100%;
+    }
+
+    header {
+        padding: 2.5rem;
+    }
+
+    /* Hero Section */
+    .hero-section .hero-content {
+        padding: 1rem 5rem;
+        gap: 2.4rem;
+    }
+
+    .hero-content .hero-img img {
+        width: 30rem;
+    }
+
+    .hero-text {
+        gap: 2rem;
+        width: 80%;
+        height: 50%;
+    }
+
+    .hero-text .name {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    /* skills */
+    .skills-content {
+        flex-direction: column;
+        gap: 4em;
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+
+    .skills-section {
+        width: 100%;
+    }
+
+    .skill-list {
+        width: 100%;
+    }
+
+    .skill-list ul {
+        padding: 0px 2rem;
+    }
+
+    /* works */
+    .scroller {
+        overflow-x: auto;
+        height: 80%;
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .hide-mobile {
+        display: none;
+        overflow: hidden;
+    }
+
+    .content {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    html {
+        font-size: 55.3%;
+        background-color: var(--black-color);
+    }
+
+    header {
+        padding: 2.5rem;
+    }
+
+    /* Hero Section */
+    .hero-section .hero-content {
+        padding: 1rem 3rem;
+        gap: 2.4rem;
+        flex-direction: column-reverse;
+    }
+
+    .hero-content .hero-img img {
+        width: 20rem;
+    }
+
+    .hero-text {
+        gap: 2rem;
+        width: 100%;
+        height: 50%;
+    }
+
+    .hero-text .name {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    /* Tools */
+    .tools-line {
+        height: 5rem;
+        width: 100%;
+    }
+
+    .tools-img img {
+        width: 2rem;
+    }
+}

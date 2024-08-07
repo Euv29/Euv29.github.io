@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Istok Web", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    font-size: var(--small-sz);
+    color: #fff;
+}
+
+html{
+    font-size: 60.3%;
+    background-color: var(--black-color);
+}
+
+body{
+}
+
+/* Header */
+header{
+    padding: 2rem 5rem;
+    width: 100%;
+    background-color: var(--black-color);
+    color: var(--whitw-color);
+    position: fixed;
+    z-index: 999;
+}
+
+
+
+/* .logo-container{
+    width: 15%;
+} */
+
+.navbar{
+    width: 80%;
+}
+
+.navbar .nav-content{
+    gap: 2.4rem;
+}
+
+/* Hero Section */
+.hero-section{
+    background-color: var(--black-color);
+}
+
+.hello{
+    gap: 1rem;
+}
+
+.jobstitle{
+    margin-left: 1rem;
+    font-size: 1.8rem;    
+    height: 4rem;
+    opacity: 60%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.hero-text{
+    gap: 6rem;
+    width: 60%;
+}
+
+.hero-text .hello{
+    font-size: 2rem;
+}
+
+.hero-text .name{
+    font-size: 8rem;
+    line-height: 8rem;
+}
+
+.hero-text .name:nth-child(3){
+    color: var(--primary-color);
+}
+
+.mid-text{
+    font-size: 1.8rem;    
+}
+
+.folow-links{
+    padding: 1rem 0;
+    gap: 1.6rem;
+}
+
+/*  */
+
+
+.tools-line{
+    background-image: url(../img/backgound/tools-Line.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10rem;
+    width: 100%;
+}
+
+.tools-img{
+    justify-content: space-between;
+    width: 70%;
+}
+
+/* Skils */
+.skills-content{
+    width: 100%;
+    padding: 0 5rem;
+}
+
+.skills-section{
+    width: 50%;
+    gap: 2rem;
+}
+
+.skill-list{
+    width: 85%;
+}
+
+.skill-list ul{
+    padding: 0px 3rem;
+}
+
+.skill-item{
+    gap: 1rem;
+    padding: 0.5rem;
+    align-items: start;
+    text-justify: distribute;
+}
+
+/* Works */
+.works-section{
+    overflow: hidden;
+}
+
+.scroller{
+    overflow-x: auto;
+    height: 100%;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+    cursor: url('/assets/img/cursor.svg'), auto;
+    /* background: -webkit-linear-gradient(45deg, #2444FF, #24C4FF); */
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+
+.works-container{
+    height: 100%;
+    gap: 2.4rem;
+}
