@@ -154,7 +154,7 @@
     }
 
     .content {
-        padding: 2rem;
+        padding: 0 2rem;
         width: 100%;
     }
 
@@ -197,5 +197,21 @@
 
     .tools-img img {
         width: 2rem;
+    }
+
+    /* contacts */
+    .contact-section{
+        height: 70vh;
+        padding: 5rem 2rem 0 2rem ;
+    }
+
+    .contact-section .section{
+        width: 90%;
+        height: 100%;
+    }
+
+    .contacts-list{
+        height: 80%;
+        padding: 5rem 0;
     }
 }

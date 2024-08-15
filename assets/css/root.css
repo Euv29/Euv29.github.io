@@ -54,10 +54,13 @@
     color: var(--primary-color);
 }
 
+a:hover,
 .nav-link:hover,
 .link:hover,
 .nav-link:active,
-.link:active{
+.link:active,
+.nav-link:focus,
+.link:focus{
     color: var(--primary-color);
     transition: all .1s ease-in-out;
 }
