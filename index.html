@@ -1,333 +1,446 @@
 <!DOCTYPE html>
 <html lang="pt">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=" ">
-
-    <title>Venâncio Wapinda | Ui Designer</title>
-
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-
-    <!-- Icons -->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
-    <!-- Style -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/objects.css">
-    <link rel="stylesheet" href="./assets/css/root.css">
-    <link rel="stylesheet" href="./assets/css/midiaQ.css">
-</head>
-
-<body id="page">
-
-    <!-- Header -->
-    <header class="flex a-center j-between normal-font small-sz">
-        <section class="logo-container">
-            <a href=""><img width="45rem" src="assets/img/Isologo - Venâncio Wapinda.svg" alt="logo"></a>
-        </section>
-
-        <!-- Destop Navgation -->
-        <section class="menu-desktop hide-mobile flex row j-between a-center">
-            <nav class="navbar">
-                <ul class="flex nav-content">
-                    <li><a href="#heroSection" class="nav-link link">Home</a></li>
-                    <li><a href="#skills" class="nav-link link">Skills</a></li>
-                    <li><a href="#works" class="nav-link link">Works</a></li>
-                    <li><a href="#design" class="nav-link link">Design</a></li>
-                    <li><a href="#contacts" class="nav-link link">Contacts</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" ">
+        <title>Venâncio Wapinda | Ui Designer</title>
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <!-- Icons -->
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <!-- Style -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/objects.css">
+        <link rel="stylesheet" href="./assets/css/root.css">
+        <link rel="stylesheet" href="./assets/css/midiaQ.css">
+    </head>
+    <body id="page">
+        <!-- Header -->
+        <header class="flex a-center j-between normal-font small-sz">
+            <section class="logo-container">
+                <a href="">
+                    <img width="45rem" src="assets/img/Isologo - Venâncio Wapinda.svg" alt="logo">
+                </a>
+            </section>
+            <!-- Destop Navgation -->
+            <section class="menu-desktop hide-mobile flex row j-between a-center">
+                <nav class="navbar">
+                    <ul class="flex nav-content">
+                        <li>
+                            <a href="#heroSection" class="nav-link link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="nav-link link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#works" class="nav-link link">Works</a>
+                        </li>
+                        <li>
+                            <a href="#design" class="nav-link link">Design</a>
+                        </li>
+                        <li>
+                            <a href="#contacts" class="nav-link link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <button href="" class="btn-download btn hide-mobile " title="Button Text">
+                <span class="btn-text">Download CV</span>
+                <div>
+                    <ion-icon name="cloud-download"></ion-icon>
+                </div>
+            </button>
+            <!-- Mobile Navgation -->
+            <section class="menu-mobile hide-desktop">
+                <a
+                    id="menu-icon"
+                    href=""
+                    class="link"
+                    title="Menu"
+                >
+                    <ion-icon class="icon" name="menu"></ion-icon>
+                </a>
+                <ul class="flex col dropdown-menu">
+                    <li>
+                        <a href="#heroSection" class="">Home</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#works" class="">Works</a>
+                    </li>
+                    <li>
+                        <a href="#design" class="">Design</a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="">Contacts</a>
+                    </li>
+                    <li style="background-color: var(--primary-color);">
+                        <a href="" class="">Download CV</a>
+                    </li>
                 </ul>
-            </nav>
-        </section>
-
-        <a href="" class="btn hide-mobile ">Download CV</a>
-
-        <!-- Mobile Navgation -->
-        <section class="menu-mobile hide-desktop">
-            <a href="" class="link"><ion-icon class="icon" name="menu"></ion-icon></a>
-        </section>
-
-    </header>
-
-    <!-- Main Content -->
-    <main class="">
-        <!-- Hero Section -->
-        <section id="heroSection" class="hero-section container flex f-center">
-            <section class="hero-content content flex f-center ">
-                <section class="hero-text flex col j-between">
-                    <section>
-                        <section class="flex hello j-center">
-                            <h2 class="font-bold hello">👋🏾 </h2>
-                            <h2 class="font-bold hello">Hello, my name is...</h2>
+            </section>
+        </header>
+        <!-- Main Content -->
+        <main class="">
+            <!-- Hero Section -->
+            <section id="heroSection" class="hero-section container flex f-center">
+                <section class="hero-content content flex f-center ">
+                    <section class="hero-text flex col j-between">
+                        <section>
+                            <section class="flex hello j-center">
+                                <h2 class="font-bold hello">👋🏾</h2>
+                                <h2 class="font-bold hello">Hello, my name is...</h2>
+                            </section>
+                            <h1 class="font-bold name">Venâncio</h1>
+                            <h1 class="font-bold name">Wapinda</h1>
+                            <section class="jobstitle">
+                                I'm
+                                <small class="mid-text welcome">
+                                    Ui Designer | FrontEnd Developer | Graphic
+                                Designer
+                                </small>
+                            </section>
                         </section>
-                        <h1 class="font-bold name">Venâncio</h1>
-                        <h1 class="font-bold name">Wapinda</h1>
-                        <section class="jobstitle">I'm
-                            <small class="mid-text welcome">Ui Designer | FrontEnd Developer | Graphic
-                                Designer </small>
-                        </section>
-                    </section>
-                    <section class="follow-me">
-                        <h2 class="font-bold hello">Follow Me...😁</h2>
-                        <section class="folow-links flex">
-                            <a href="https://www.figma.com/files/team/1367952876535633232/user/1205176415342581698?fuid=1205176415342581698"
-                                class="link"><img width="20rem" src="./assets/img/icons/Social Icons.svg"
-                                    alt="icon"></a>
-                            <a href="https://github.com/Euv29" class="link"><img width="20rem"
-                                    src="./assets/img/icons/Social Icons-1.svg" alt="icon"></a>
-                            <a href="https://www.instagram.com/venancio.wapinda/" class="link"><img width="20rem"
-                                    src="./assets/img/icons/Social Icons-2.svg" alt="icon"></a>
-                            <a href="https://www.facebook.com/profile.php?id=100051947731385" class="link"><img
-                                    width="20rem" src="./assets/img/icons/Social Icons-3.svg" alt="icon"></a>
+                        <section class="follow-me">
+                            <h2 class="font-bold hello">Follow Me...😁</h2>
+                            <section class="folow-links flex">
+                                <a href="https://www.figma.com/files/team/1367952876535633232/user/1205176415342581698?fuid=1205176415342581698" class="link">
+                                    <img width="20rem" src="./assets/img/icons/Social Icons.svg" alt="icon">
+                                </a>
+                                <a href="https://github.com/Euv29" class="link">
+                                    <img width="20rem" src="./assets/img/icons/Social Icons-1.svg" alt="icon">
+                                </a>
+                                <a href="https://www.instagram.com/venancio.wapinda/" class="link">
+                                    <img width="20rem" src="./assets/img/icons/Social Icons-2.svg" alt="icon">
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100051947731385" class="link">
+                                    <img width="20rem" src="./assets/img/icons/Social Icons-3.svg" alt="icon">
+                                </a>
+                            </section>
                         </section>
                     </section>
-                </section>
-                <section class="hero-img">
-                    <img class="hide-mobile" width="400rem" src="./assets/img/hero-img.svg" alt="">
-                    <img class="hide-desktop" width="400rem" src="./assets/img/hero-img-2.svg" alt="">
+                    <section class="hero-img">
+                        <img
+                            class="hide-mobile"
+                            width="400rem"
+                            src="./assets/img/hero-img.svg"
+                            alt=""
+                        >
+                        <img
+                            class="hide-desktop"
+                            width="400rem"
+                            src="./assets/img/hero-img-2.svg"
+                            alt=""
+                        >
+                    </section>
                 </section>
             </section>
-        </section>
-
-        <!-- Tools | Skills -->
-        <section id="skills" class="skills-section container content">
-
-            <!-- Tools -->
-            <!-- <section class="title flex a-center">
+            <!-- Tools | Skills -->
+            <section id="skills" class="skills-section container content">
+                <!-- Tools -->
+                <!-- <section class="title flex a-center">
                 <div class="title-icon">
                     <h1 class="font-bold">⚙</h1>
                 </div>
                 <h1 class="font-bold">Tools</h1>
             </section> -->
-
-            <section class="tools-line flex f-center">
-                <section class="tools-img flex">
-                    <img width="30rem" src="./assets/img/icons/tools/logo-figma.svg" alt="figma">
-                    <img width="30rem" src="./assets/img/icons/tools/logo-html5.svg" alt="html">
-                    <img width="30rem" src="./assets/img/icons/tools/logo-css3.svg" alt="css">
-                    <img width="30rem" src="./assets/img/icons/tools/logo-javascript.svg" alt="javascript">
-                    <img width="30rem" src="./assets/img/icons/tools/logo-laravel.svg" alt="laravel">
-                    <img width="30rem" src="./assets/img/icons/tools/logo-ionic.svg" alt="ionic">
-                    <img width="30rem" src="./assets/img/icons/tools/logo-react.svg" alt="react">
-                </section>
-            </section>
-
-            <!-- Skills -->
-            <section class="title flex a-center">
-                <div class="title-icon">
-                    <h1 class="font-bold">💪🏾</h1>
-                </div>
-                <h1 class="font-bold">Skills</h1>
-            </section>
-
-            <section class="skills-content flex j-between">
-
-                <section class="skills-section flex col">
-                    <section class="flex col">
-                        <section class="flex">
-                            <div class="title-icon">
-                                <h1 class="font-bold">🤵🏾</h1>
-                            </div>
-                            <h1 class="font-bold">General</h1>
-                        </section>
-                        <h2 class="skill-mid-title text-primary font-bold">Skills</h2>
-                    </section>
-                    <section class="skill-list">
-                        <ul>
-                            <li class="skill-item flex">
-                                <img width="15rem" src="./assets/img/icons/checkmark-circle.svg" alt="" srcset="">
-                                Problem-solving ability.
-                            </li>
-                            <li class="skill-item flex">
-                                <img width="15rem" src="./assets/img/icons/checkmark-circle.svg" alt="" srcset="">
-                                Communication and teamwork.
-                            </li>
-                            <li class="skill-item flex">
-                                <img width="15rem" src="./assets/img/icons/checkmark-circle.svg" alt="" srcset="">
-                                Fast learning.
-                            </li>
-                        </ul>
+                <section class="tools-line flex f-center">
+                    <section class="tools-img flex">
+                        <img width="30rem" src="./assets/img/icons/tools/logo-figma.svg" alt="figma">
+                        <img width="30rem" src="./assets/img/icons/tools/logo-html5.svg" alt="html">
+                        <img width="30rem" src="./assets/img/icons/tools/logo-css3.svg" alt="css">
+                        <img width="30rem" src="./assets/img/icons/tools/logo-javascript.svg" alt="javascript">
+                        <img width="30rem" src="./assets/img/icons/tools/logo-laravel.svg" alt="laravel">
+                        <img width="30rem" src="./assets/img/icons/tools/logo-ionic.svg" alt="ionic">
+                        <img width="30rem" src="./assets/img/icons/tools/logo-react.svg" alt="react">
                     </section>
                 </section>
-
-                <section class="skills-section flex col">
-                    <section class="flex col">
-                        <section class="flex">
-                            <div class="title-icon">
-                                <h1 class="font-bold">👨🏾‍💻</h1>
-                            </div>
-                            <h1 class="font-bold">Professional</h1>
-                        </section>
-                        <h2 class="skill-mid-title text-primary font-bold">Skills</h2>
-                    </section>
-                    <section class="skill-list">
-                        <ul>
-                            <li class="skill-item flex">
-                                <img width="15rem" src="./assets/img/icons/checkmark-circle.svg" alt="" srcset="">
-                                Mastery of the Figma tool (UI/UX Design.)
-                            </li>
-                            <li class="skill-item flex">
-                                <img width="15rem" src="./assets/img/icons/checkmark-circle.svg" alt="" srcset="">
-                                Mastery of Photoshop and Canvas Design tools.
-                            </li>
-                            <li class="skill-item flex">
-                                <img width="15rem" src="./assets/img/icons/checkmark-circle.svg" alt="" srcset="">
-                                Mastery of some web development tools/languages:
-                                HTML, CSS, JS, front-end frameworks (Laravel, Ionic, React).
-                            </li>
-                        </ul>
-                    </section>
-                </section>
-
-            </section>
-        </section>
-
-        <section id="works" class="works-section container content">
-            <!-- Works -->
-            <section class="title flex a-center">
-                <div class="title-icon">
-                    <h1 class="font-bold">💻</h1>
-                </div>
-                <h1 class="font-bold">Works</h1>
-            </section>
-
-            <section class="scroller">
-                <section class="works-container flex a-center">
-                    <!-- <a href="" target="_blank" rel="noopener noreferrer" class="work-card">
-                        <section class="work-img">
-                            <img min-width="250rem" src="./assets/img/works/supa-serviços.png" alt="" srcset="">
-                        </section>
-                        <section class="card-description">
-                            <h2 class="work-title">Supa Serviços</h2>
-                            <p class="work-description">
-                                I developed the current layout of the website for the company Supa Serviços, which I
-                                currently work for.
-                            </p>
-                        </section>
-                        <section class="link-card flex">
-                            <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
-                            <small class="mid-text">Visit website</small>
-                        </section>
-                    </a> -->
-                    <a class="work-card card-empty">
-                        <section class="work-img">
-                        </section>
-                        <section class="card-description">
-                            <h2 class="work-title"></h2>
-                            <p class="work-description">
-                            </p>
-                        </section>
-                        <section class="link-card flex">
-                            <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
-                            <small class="mid-text">Visit website</small>
-                        </section>
-                    </a>
-                </section>
-            </section>
-        </section>
-
-        <section id="design" class="works-section container content">
-            <!-- Figma Projects -->
-            <section class="title flex a-center">
-                <div class="title-icon">
-                    <h1 class="font-bold">✍🏾</h1>
-                </div>
-                <h1 class="font-bold">Figma Projects</h1>
-            </section>
-
-            <section class="scroller">
-                <section class="works-container flex a-center">
-                    <!-- <a href="" target="_blank" rel="noopener noreferrer" class="work-card">
-                        <section class="work-img">
-                            <img min-width="250rem" src="./assets/img/works/supa-serviços.png" alt="" srcset="">
-                        </section>
-                        <section class="card-description">
-                            <h2 class="work-title">Supa Serviços</h2>
-                            <p class="work-description">
-                                I developed the current layout of the website for the company Supa Serviços, which I
-                                currently work for.
-                            </p>
-                        </section>
-                        <section class="link-card flex">
-                            <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
-                            <small class="mid-text">Visit website</small>
-                        </section>
-                    </a> -->
-                    <a class="work-card card-empty">
-                        <section class="work-img">
-                        </section>
-                        <section class="card-description">
-                            <h2 class="work-title"></h2>
-                            <p class="work-description">
-                            </p>
-                        </section>
-                        <section class="link-card flex">
-                            <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
-                            <small class="mid-text">Visit website</small>
-                        </section>
-                    </a>
-                </section>
-            </section>
-        </section>
-        <section id="contacts" class="contact-section container flex j-between">
-            <sectio class="section contact-area flex col j-between">
+                <!-- Skills -->
                 <section class="title flex a-center">
                     <div class="title-icon">
-                        <h1 class="font-bold">📲</h1>
+                        <h1 class="font-bold">💪🏾</h1>
                     </div>
-                    <h1 class="font-bold">Contacts</h1>
+                    <h1 class="font-bold">Skills</h1>
                 </section>
-                <p class="mid-text">Send me a message, let's talk...</p>
-                <section class="contacts-list flex col j-between">
-                    <a href="https://www.instagram.com/venancio.wapinda/" class="link flex row contact instagram">
-                        <img width="25rem" src="./assets/img/icons/Social Icons-2.svg" alt="icon">
-                        <h1>Instagram</h1>
-                    </a>
-                    <a href="mailto:venancio.contacto@gmail.com" class="link flex row contact google">
-                        <img width="25rem" src="./assets/img/icons/Social Icons-5.svg" alt="icon">
-                        <h1>E-mail</h1>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100051947731385" class="link flex row contact facebook">
-                        <img width="25rem" src="./assets/img/icons/Social Icons-3.svg" alt="icon">
-                        <h1>Facebook</h1>
-                    </a>
-                    <a href="" class="link flex row contact linkedin">
-                        <img width="25rem" src="./assets/img/icons/Social Icons-6.svg" alt="icon">
-                        <h1>LinkedIn</h1>
-                    </a>
+                <section class="skills-content flex j-between">
+                    <section class="skills-section flex col">
+                        <section class="flex col">
+                            <section class="flex">
+                                <div class="title-icon">
+                                    <h1 class="font-bold">🤵🏾</h1>
+                                </div>
+                                <h1 class="font-bold">General</h1>
+                            </section>
+                            <h2 class="skill-mid-title text-primary font-bold">Skills</h2>
+                        </section>
+                        <section class="skill-list">
+                            <ul>
+                                <li class="skill-item flex">
+                                    <img
+                                        width="15rem"
+                                        src="./assets/img/icons/checkmark-circle.svg"
+                                        alt=""
+                                        srcset=""
+                                    >
+                                    Problem-solving ability.
+                                </li>
+                                <li class="skill-item flex">
+                                    <img
+                                        width="15rem"
+                                        src="./assets/img/icons/checkmark-circle.svg"
+                                        alt=""
+                                        srcset=""
+                                    >
+                                    Communication and teamwork.
+                                </li>
+                                <li class="skill-item flex">
+                                    <img
+                                        width="15rem"
+                                        src="./assets/img/icons/checkmark-circle.svg"
+                                        alt=""
+                                        srcset=""
+                                    >
+                                    Fast learning.
+                                </li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="skills-section flex col">
+                        <section class="flex col">
+                            <section class="flex">
+                                <div class="title-icon">
+                                    <h1 class="font-bold">👨🏾‍💻</h1>
+                                </div>
+                                <h1 class="font-bold">Professional</h1>
+                            </section>
+                            <h2 class="skill-mid-title text-primary font-bold">Skills</h2>
+                        </section>
+                        <section class="skill-list">
+                            <ul>
+                                <li class="skill-item flex">
+                                    <img
+                                        width="15rem"
+                                        src="./assets/img/icons/checkmark-circle.svg"
+                                        alt=""
+                                        srcset=""
+                                    >
+                                    Mastery of the Figma tool (UI/UX Design.)
+                                </li>
+                                <li class="skill-item flex">
+                                    <img
+                                        width="15rem"
+                                        src="./assets/img/icons/checkmark-circle.svg"
+                                        alt=""
+                                        srcset=""
+                                    >
+                                    Mastery of Photoshop and Canvas Design tools.
+                                </li>
+                                <li class="skill-item flex">
+                                    <img
+                                        width="15rem"
+                                        src="./assets/img/icons/checkmark-circle.svg"
+                                        alt=""
+                                        srcset=""
+                                    >
+                                    Mastery of some web development tools/languages:
+                                HTML, CSS, JS, front-end frameworks (Laravel, Ionic, React).
+                                </li>
+                            </ul>
+                        </section>
+                    </section>
                 </section>
-            </sectio>
-            <sectio class="section contact-img hide-mobile">
-                <img width="450rem" src="./assets/img/end-img.svg" alt="">
-            </sectio>
-        </section>
-    </main>
-
-
-    <!-- Footer -->
-    <footer>
-
-    </footer>
-
-    <!-- Script -->
-    <script src="./assets/js/index.js"></script>
-
-    <!-- HeroSection Script -->
-    <script src="./assets/js/background/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/background/EasePack.min.js"></script>
-    <script src="./assets/js/background/rAF.js"></script>
-    <script src="./assets/js/background/TweenLite.min.js"></script>
-    <script src="./assets/js/background/script.js"></script>
-</body>
-
-<!-- Typing Animation -->
-
-<script>
+            </section>
+            <section id="works" class="works-section container content container-mid">
+                <!-- Works -->
+                <section class="title flex a-center">
+                    <div class="title-icon">
+                        <h1 class="font-bold">💻</h1>
+                    </div>
+                    <h1 class="font-bold">Works</h1>
+                </section>
+                <section class="scroller">
+                    <section class="works-container flex a-center">
+                        <!-- <a href="" target="_blank" rel="noopener noreferrer" class="work-card">
+                        <section class="work-img">
+                            <img min-width="250rem" src="./assets/img/works/supa-serviços.png" alt="" srcset="">
+                        </section>
+                        <section class="card-description">
+                            <h2 class="work-title">Supa Serviços</h2>
+                            <p class="work-description">
+                                I developed the current layout of the website for the company Supa Serviços, which I
+                                currently work for.
+                            </p>
+                        </section>
+                        <section class="link-card flex">
+                            <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
+                            <small class="mid-text">Visit website</small>
+                        </section>
+                    </a> -->
+                        <a
+                            href="https://maiskwanza.ao/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-card"
+                        >
+                            <section class="work-img">
+                                <img
+                                    min-width="250rem"
+                                    src="./assets/img/works/mais-kwanza.png"
+                                    alt=""
+                                    srcset=""
+                                >
+                            </section>
+                            <section class="card-description">
+                                <h2 class="work-title">Mais Kwanza Podcast</h2>
+                                <p class="work-description">
+                                    I developed the current layout of the website for the Podcast Mais Kwanza by Nuno Baio and Vaneza Von-Hoffe
+                                </p>
+                            </section>
+                            <section class="link-card flex">
+                                <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
+                                <small class="mid-text">Visit website</small>
+                            </section>
+                        </a>
+                        <a class="work-card card-empty">
+                            <section class="work-img"></section>
+                            <section class="card-description">
+                                <h2 class="work-title"></h2>
+                                <p class="work-description"></p>
+                            </section>
+                            <section class="link-card flex">
+                                <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
+                                <small class="mid-text">Visit website</small>
+                            </section>
+                        </a>
+                        <a class="work-card card-empty">
+                            <section class="work-img"></section>
+                            <section class="card-description">
+                                <h2 class="work-title"></h2>
+                                <p class="work-description"></p>
+                            </section>
+                            <section class="link-card flex">
+                                <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
+                                <small class="mid-text">Visit website</small>
+                            </section>
+                        </a>
+                        <a class="work-card card-empty">
+                            <section class="work-img"></section>
+                            <section class="card-description">
+                                <h2 class="work-title"></h2>
+                                <p class="work-description"></p>
+                            </section>
+                            <section class="link-card flex">
+                                <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
+                                <small class="mid-text">Visit website</small>
+                            </section>
+                        </a>
+                        <a class="work-card card-empty">
+                            <section class="work-img"></section>
+                            <section class="card-description">
+                                <h2 class="work-title"></h2>
+                                <p class="work-description"></p>
+                            </section>
+                            <section class="link-card flex">
+                                <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
+                                <small class="mid-text">Visit website</small>
+                            </section>
+                        </a>
+                    </section>
+                </section>
+            </section>
+            <section id="design" class="works-section container content container-mid">
+                <!-- Figma Projects -->
+                <section class="title flex a-center">
+                    <div class="title-icon">
+                        <h1 class="font-bold">✍🏾</h1>
+                    </div>
+                    <h1 class="font-bold">Figma Projects</h1>
+                </section>
+                <section class="scroller">
+                    <section class="works-container flex a-center">
+                        <!-- <a href="" target="_blank" rel="noopener noreferrer" class="work-card">
+                        <section class="work-img">
+                            <img min-width="250rem" src="./assets/img/works/supa-serviços.png" alt="" srcset="">
+                        </section>
+                        <section class="card-description">
+                            <h2 class="work-title">Supa Serviços</h2>
+                            <p class="work-description">
+                                I developed the current layout of the website for the company Supa Serviços, which I
+                                currently work for.
+                            </p>
+                        </section>
+                        <section class="link-card flex">
+                            <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
+                            <small class="mid-text">Visit website</small>
+                        </section>
+                    </a> -->
+                        <a class="work-card card-empty">
+                            <section class="work-img"></section>
+                            <section class="card-description">
+                                <h2 class="work-title"></h2>
+                                <p class="work-description"></p>
+                            </section>
+                            <section class="link-card flex">
+                                <img width="13rem" src="./assets/img/icons/link-Vector.svg" alt="">
+                                <small class="mid-text">Visit website</small>
+                            </section>
+                        </a>
+                    </section>
+                </section>
+            </section>
+            <section id="contacts" class="contact-section container flex j-between">
+                <sectio class="section contact-area flex col j-between">
+                    <section class="title flex a-center">
+                        <div class="title-icon">
+                            <h1 class="font-bold">📲</h1>
+                        </div>
+                        <h1 class="font-bold">Contacts</h1>
+                    </section>
+                    <p class="mid-text">Send me a message, let's talk...</p>
+                    <section class="contacts-list flex col j-between">
+                        <a href="https://www.instagram.com/venancio.wapinda/" class="link flex row contact instagram">
+                            <img width="25rem" src="./assets/img/icons/Social Icons-2.svg" alt="icon">
+                            <h1>Instagram</h1>
+                        </a>
+                        <a href="mailto:venancio.contacto@gmail.com" class="link flex row contact google">
+                            <img width="25rem" src="./assets/img/icons/Social Icons-5.svg" alt="icon">
+                            <h1>E-mail</h1>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100051947731385" class="link flex row contact facebook">
+                            <img width="25rem" src="./assets/img/icons/Social Icons-3.svg" alt="icon">
+                            <h1>Facebook</h1>
+                        </a>
+                        <a href="" class="link flex row contact linkedin">
+                            <img width="25rem" src="./assets/img/icons/Social Icons-6.svg" alt="icon">
+                            <h1>LinkedIn</h1>
+                        </a>
+                    </section>
+                </sectio>
+                <sectio class="section contact-img hide-mobile">
+                    <img width="450rem" src="./assets/img/end-img.svg" alt="">
+                </sectio>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            s
+        </footer>
+        <!-- Script -->
+        <script src="./assets/js/index.js"></script>
+        <!-- HeroSection Script -->
+        <script src="./assets/js/background/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/background/EasePack.min.js"></script>
+        <script src="./assets/js/background/rAF.js"></script>
+        <script src="./assets/js/background/TweenLite.min.js"></script>
+        <script src="./assets/js/background/script.js"></script>
+    </body>
+    <!-- Typing Animation -->
+    <script>
     $(document).ready(function () {
         var textElements = ["UI Desiner.", "UX Designer.", "Graphic Designer.", "FrontEnd Developer."];
         var welcomeText = document.querySelector('.welcome');
@@ -362,6 +475,29 @@
 
         typeText(); // Inicie a digitação
     });
-</script>
+    </script>
+    <!-- dropdow -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuIcon = document.getElementById('menu-icon');
+        const dropdownMenu = document.querySelector('.dropdown-menu');
 
+        // Ensure the dropdown menu is hidden initially
+        dropdownMenu.style.display = 'none';
+        menuIcon.addEventListener('click', function (event) {
+            event.preventDefault();
+            if (dropdownMenu.style.display === 'none' || dropdownMenu.style.display === '') {
+                dropdownMenu.style.display = 'block';
+            } else {
+                dropdownMenu.style.display = 'none';
+            }
+        });
+
+        document.addEventListener('click', function (event) {
+            if (!menuIcon.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                dropdownMenu.style.display = 'none';
+            }
+        });
+    });
+    </script>
 </html>

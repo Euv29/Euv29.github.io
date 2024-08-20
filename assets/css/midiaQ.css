@@ -32,6 +32,10 @@
         --button-radius: 1rem;
     }
 
+    .container-mid{
+        height: 90vh;
+    }
+
     /* Fonts */
     h1 {
         font-size: 3rem;
@@ -156,6 +160,10 @@
     .content {
         padding: 0 2rem;
         width: 100%;
+    }
+
+    .container-mid{
+        height: 70vh;
     }
 
     html {

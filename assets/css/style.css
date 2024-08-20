@@ -133,12 +133,13 @@ header{
 
 /* Works */
 .works-section{
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .scroller{
-    overflow-x: auto;
-    height: 90%;
+    overflow-x: auto; 
+    overflow: visible; 
+    height: 100%;
 }
 
 .scroller::-webkit-scrollbar-thumb {
@@ -167,6 +168,7 @@ header{
 .contacts-list{
     height: 80%;
     padding: 10rem 0;
+    gap: 2.4rem;
 }
 
 .contacts-list .contact{

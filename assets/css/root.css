@@ -37,7 +37,6 @@
     /* background: -webkit-linear-gradient(45deg, #2444FF, #24C4FF); */
     background-color: var(--primary-color);
     border-radius: 6px;
-
 }
 
 .icon{
@@ -54,7 +53,6 @@
     color: var(--primary-color);
 }
 
-a:hover,
 .nav-link:hover,
 .link:hover,
 .nav-link:active,
